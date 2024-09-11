@@ -25,9 +25,9 @@ Here is an overview of the project structure:
 
 ![image](https://github.com/user-attachments/assets/4795bcc9-730b-48af-824d-4cc416638ff7)
 
-## Test Cases and Results
+# Test Cases and Results
 
-# Test Case 1: Account Creation with Valid Details<br>
+## Test Case 1: Account Creation with Valid Details<br>
 
 Description: Tests the creation of a new account using valid details.
 
@@ -39,7 +39,7 @@ Expected Output: Account is successfully created, and the user is redirected to 
 
 Actual Output: Passed as expected.
 
-# Test Case 2: Login with Valid Details<br>
+## Test Case 2: Login with Valid Details<br>
 
 Description: Tests logging in with valid credentials.
 
@@ -52,7 +52,7 @@ Expected Output: User is logged in, and the home page is displayed with the corr
 
 Actual Output: Passed as expected.
 
-# Test Case 3: Login with Invalid Details<br>
+## Test Case 3: Login with Invalid Details<br>
 
 Description: Tests logging in with incorrect credentials (invalid email and password).
 
@@ -64,7 +64,7 @@ Expected Output: An error message is displayed stating "Invalid credentials."
 
 Actual Output: Passed, error message displayed correctly.
 
-# Test Case 4: Login with Empty Fields<br>
+## Test Case 4: Login with Empty Fields<br>
 
 Description: Tests logging in without entering any credentials.
 
@@ -76,7 +76,7 @@ Expected Output: An error message indicating that fields cannot be empty is disp
 
 Actual Output: Passed as expected.
 
-# Test Case 5: Login with Empty Password<br>
+## Test Case 5: Login with Empty Password<br>
 
 Description: Tests logging in with a username but without a password.
 
@@ -105,7 +105,7 @@ Follow the steps below to set up the project and execute the test cases:
 Clone the project repository from GitHub to your local machine using the following command:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/yamini68/Login-Automation.git>
 ```
 ### 2. Open the Project in IntelliJ IDEA
 
