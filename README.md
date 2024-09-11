@@ -88,6 +88,14 @@ Expected Output: An error message indicating that the password is required is di
 
 Actual Output: Passed as expected.
 
+## Test Report
+
+Below is a screenshot of the Extent Report generated after executing the test cases:
+
+![image](https://github.com/user-attachments/assets/f6fda80c-096c-4aa8-91b2-18ffa5dd4ddc)
+
+![image](https://github.com/user-attachments/assets/44a396b6-d456-433e-a5a4-4a5611df9c6f)
+
 
 
 
