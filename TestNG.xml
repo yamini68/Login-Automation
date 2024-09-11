@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteName" verbose="2" configfailurepolicy="continue">
+
+    <listeners>
+        <!-- Use the correct listener class that implements ITestListener -->
+        <listener class-name="ReportsTestNG.Listeners"/>
+    </listeners>
+    <test name="Testing_Login_Functionality">
+        <classes>
+            <class name="TestCases.Login"/>
+        </classes>
+    </test>
+
+</suite>
