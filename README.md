@@ -96,6 +96,46 @@ Below is a screenshot of the Extent Report generated after executing the test ca
 
 ![image](https://github.com/user-attachments/assets/44a396b6-d456-433e-a5a4-4a5611df9c6f)
 
+## Execution Steps
+
+Follow the steps below to set up the project and execute the test cases:
+
+### 1. Clone the Repository
+
+Clone the project repository from GitHub to your local machine using the following command:
+
+```bash
+git clone <repository-url>
+```
+### 2. Open the Project in IntelliJ IDEA
+
+--> Open IntelliJ IDEA.<br>
+--> Click on File > Open.<br>
+--> Navigate to the directory where you cloned the repository and select the project folder.
+
+### 3. Ensure Maven is Configured Correctly
+
+--> Once the project is opened in IntelliJ, ensure that the pom.xml file is present in the project root directory.
+
+### 4. Run the Tests Using Maven
+
+--> Open the Terminal in IntelliJ IDEA<br>
+--> Navigate to the root directory<br>
+--> Enter the following maven command to run the test suite:
+   ```bash
+     mvn test
+  ```
+![image](https://github.com/user-attachments/assets/f8a6b9be-09c7-4d08-97ad-a1e1f0e1354d)
+
+--> The output after running the command:
+![image](https://github.com/user-attachments/assets/c740b08c-db15-4ac2-a7bb-9fe4465382ed)
+
+### 5. Report Generation
+
+-->The test report will be created in Reports directory as " index.html" <br>
+--> open the index.html in browser to view the test report.
+
+
 
 
 
