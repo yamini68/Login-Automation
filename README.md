@@ -33,7 +33,7 @@ Description: Tests the creation of a new account using valid details.
 
 ![image](https://github.com/user-attachments/assets/6fc4e61a-2b7a-4259-aa9c-afee2ea896c9)
 
-Expected Output: Account is successfully created, and the user is redirected to the welcome page.
+Expected Output: Account is successfully created, and the user is redirected to the login page.
 
 ![image](https://github.com/user-attachments/assets/8dfacd33-10aa-4300-a590-640d038f1e7d)
 
