@@ -1,0 +1,35 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="Login_Automation" />
+          <option value="Login_Automation" />
+          <option value="Login_Automation" />
+          <option value="Login_Automation" />
+          <option value="Login_Automation" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="com.google.guava:guava:31.1-jre" />
+          <option value="com.google.code.gson:gson:2.8.6" />
+          <option value="org.codehaus.plexus:plexus-utils:3.0.10" />
+          <option value="io.netty:netty-codec-http:4.1.91.Final" />
+          <option value="io.netty:netty-handler:4.1.91.Final" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
