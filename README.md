@@ -58,7 +58,7 @@ Description: Tests logging in with incorrect credentials (invalid email and pass
 
 ![image](https://github.com/user-attachments/assets/e1ea724c-2f9e-4730-9e9d-1c7b3fbc3873)
 
-Expected Output: An error message is displayed stating "Invalid credentials."
+Expected Output: An error message is displayed stating "Please enter a correct username and password. Note that both fields may be case-sensitive."
 
 ![image](https://github.com/user-attachments/assets/57dcdb96-aada-44ae-b28e-51868155f00c)
 
@@ -70,7 +70,8 @@ Description: Tests logging in without entering any credentials.
 
 ![image](https://github.com/user-attachments/assets/6d7287b7-0a64-4779-8680-3a4ff235ae28)
 
-Expected Output: An error message indicating that fields cannot be empty is displayed.
+Expected Output: An error message indicating that "Email: This field is required.
+Password: This field is required." is displayed.
 
 ![image](https://github.com/user-attachments/assets/bca13a67-bb8a-4055-a440-743681f6fdad)
 
@@ -88,7 +89,7 @@ Expected Output: An error message indicating that the password is required is di
 
 Actual Output: Passed as expected.
 
-## Test Report
+# Test Report
 
 Below is a screenshot of the Extent Report generated after executing the test cases:
 
@@ -96,7 +97,7 @@ Below is a screenshot of the Extent Report generated after executing the test ca
 
 ![image](https://github.com/user-attachments/assets/44a396b6-d456-433e-a5a4-4a5611df9c6f)
 
-## Execution Steps
+# Execution Steps
 
 Follow the steps below to set up the project and execute the test cases:
 
