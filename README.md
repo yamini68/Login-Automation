@@ -27,7 +27,8 @@ Here is an overview of the project structure:
 
 ## Test Cases and Results
 
-Test Case 1: Account Creation with Valid Details<br>
+# Test Case 1: Account Creation with Valid Details<br>
+
 Description: Tests the creation of a new account using valid details.
 
 ![image](https://github.com/user-attachments/assets/6fc4e61a-2b7a-4259-aa9c-afee2ea896c9)
@@ -38,7 +39,8 @@ Expected Output: Account is successfully created, and the user is redirected to 
 
 Actual Output: Passed as expected.
 
-Test Case 2: Login with Valid Details<br>
+# Test Case 2: Login with Valid Details<br>
+
 Description: Tests logging in with valid credentials.
 
 ![image](https://github.com/user-attachments/assets/dcd4566c-acc9-4208-84ad-d0d5b25021ff)
@@ -50,7 +52,8 @@ Expected Output: User is logged in, and the home page is displayed with the corr
 
 Actual Output: Passed as expected.
 
-Test Case 3: Login with Invalid Details<br>
+# Test Case 3: Login with Invalid Details<br>
+
 Description: Tests logging in with incorrect credentials (invalid email and password).
 
 ![image](https://github.com/user-attachments/assets/e1ea724c-2f9e-4730-9e9d-1c7b3fbc3873)
@@ -61,7 +64,8 @@ Expected Output: An error message is displayed stating "Invalid credentials."
 
 Actual Output: Passed, error message displayed correctly.
 
-Test Case 4: Login with Empty Fields<br>
+# Test Case 4: Login with Empty Fields<br>
+
 Description: Tests logging in without entering any credentials.
 
 ![image](https://github.com/user-attachments/assets/6d7287b7-0a64-4779-8680-3a4ff235ae28)
@@ -72,7 +76,8 @@ Expected Output: An error message indicating that fields cannot be empty is disp
 
 Actual Output: Passed as expected.
 
-Test Case 5: Login with Empty Password<br>
+# Test Case 5: Login with Empty Password<br>
+
 Description: Tests logging in with a username but without a password.
 
 ![image](https://github.com/user-attachments/assets/0b1e7ea2-e2eb-44c2-ab9f-20d34ec98844)
